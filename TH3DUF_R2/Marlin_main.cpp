@@ -375,11 +375,6 @@
        G38_endstop_hit = false;
 #endif
 
-#if ENABLED(DITHERING)
- #include "dither.h"
- Dithering Dither;
-#endif
-
 #if ENABLED(AUTO_BED_LEVELING_UBL)
   #include "ubl.h"
 #endif
